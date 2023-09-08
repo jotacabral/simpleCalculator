@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="/style/reset.css">
+  <link rel="stylesheet" href="/style/style.css">
+  <script src="js/js.js" defer></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="display">
+      <h2 id="displayPrevious" class="displayItem"></h2>
+      <h1 id="displayActual" class="displayItem"></h1>
+    </div>
+
+    <div id="operations">
+      <hr>
+      <hr>
+    </div>
+
+    <div id="keyboard">
+      <input type="button" class="disable" value="%">
+      <input type="button" data-allclear value="CE">
+      <input type="button" data-allclear value="C">
+      <input type="button" data-delete value="Erase">
+
+      <input type="button" class="disable" value="1/x">
+      <input type="button" class="disable" value="X²">
+      <input type="button" class="disable" value="²V/x">
+      <input type="button" data-subop value="/">
+
+      <input type="button" data-number value="7">
+      <input type="button" data-number value="8">
+      <input type="button" data-number value="9">
+      <input type="button" data-subop value="*">
+
+      <input type="button" data-number value="4">
+      <input type="button" data-number value="5">
+      <input type="button" data-number value="6">
+      <input type="button" data-subop value="-">
+
+      <input type="button" data-number value="1">
+      <input type="button" data-number value="2">
+      <input type="button" data-number value="3">
+      <input type="button" data-subop value="+">
+
+      <input type="button" class="disable" value="+ | -">
+      <input type="button" data-number value="0">
+      <input type="button" data-number value=".">
+      <input type="button" data-equal value="=">
+    </div>
+  </div>
+
+
+</body>
+
+</html>
